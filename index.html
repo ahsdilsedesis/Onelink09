@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+      * {
+         margin: 0;
+         padding: 0;
+         user-select: none;
+         font-family: 'Roboto', sans-serif;
+      }
+      .container {
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         text-align: center;
+      }
+      .buttons {
+         width: 15rem;
+         margin: 0 auto 0 auto;
+         display: grid;
+         gap: 5rem;
+      }
+      .btn {
+         background-color: #ddd;
+         width: 15rem;
+         height: 15rem;
+         border-radius: 15rem;
+         border: none;
+         outline: none;
+         font-size: 2rem;
+         transition: .5s;
+      }
+      .btn:hover {
+         background-color: rgb(127, 163, 225);
+      }
+      img {
+         width: 15rem;
+         height: 15rem;
+      }
+   </style>
+</head>
+<body>
+   <div class="container">
+      <h1>Welcome!</h1>
+      <h2>Select admin type to access criteria.</h2><br><br>
+      <div class="buttons">
+         <img src="https://cdn3.iconfinder.com/data/icons/education-flat-icon-1/130/148-512.png" alt="" onclick="student()">
+         <img src="https://cdn-icons-png.flaticon.com/512/780/780292.png" alt="" onclick="parent()">
+         <img src="https://e7.pngegg.com/pngimages/397/461/png-clipart-computer-icons-teacher-icon-design-education-data-teacher-service-orange.png" alt="" onclick="teacher()">
+         <!-- <input type="button" value="Student" id="student" class="btn"> -->
+         <!-- <input type="button" value="Parent" id="parent" class="btn"> -->
+         <!-- <input type="button" value="Teacher" id="teacher" class="btn"> -->
+      </div>
+   </div>
+   <script src="./homePreload.js"></script>
+</body>
+</html>

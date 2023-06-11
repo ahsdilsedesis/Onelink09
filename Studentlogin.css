@@ -1,0 +1,22 @@
+.center{ 
+    position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;}
+.login_button {
+    width: 15rem;
+    height: 2.5rem;
+    background-color: rgb(83, 83, 255);
+    color: azure;
+}
+.smallwords {
+   color: rgb(253, 208, 31);
+
+
+}
+.imgg {
+    width: 10rem;
+    height: 10rem;
+}
+ .login_button {border-radius: 12px;}
