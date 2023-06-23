@@ -1,0 +1,158 @@
+<html>
+  <head>
+    <title>Chat Box UI Design</title>
+    <link rel="stylesheet" href="./GradeChat.css">
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Import this CDN to use icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <h1>Missing Assignments</h1>
+  <h2>1---Sonnet 18 Essay</h2>
+  <body>
+    <div class="back-button">
+      <a href="BugHelp.html">&larr; Back</a>
+    </div>
+    <style>.back-button {
+      margin-bottom: 10px;
+    }
+    
+    .back-button a {
+      background-color: royalblue;
+      color: white;
+      border-color: royalblue;
+      border-style: solid;
+      border-width: 2px;
+      height: 45px;
+      width: 85px;
+      border-radius: 10px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      transition: background-color 1s, color 1s;
+      font-size: 20px;
+    }
+    
+    .back-button a:hover {
+      background-color: rgb(56, 90, 194);
+      color: white;
+    }
+    
+    .back-button a:active {
+      opacity: 0.7;
+    }</style>
+    <!-- Main container -->
+    <div class="container">
+      <!-- msg-header section starts -->
+      <div class="msg-header">
+        <div class="container1">
+          <img src="user1.png" class="msgimg" />
+          <div class="active">
+            <p>Mrs.Jacobs</p>
+          </div>
+        </div>
+      </div>
+      <!-- msg-header section ends -->
+
+      <!-- Chat inbox  -->
+      <div class="chat-page">
+        <div class="msg-inbox">
+          <div class="chats">
+            <!-- Message container -->
+            <div class="msg-page">
+              <!-- Incoming messages -->
+
+              <div class="received-chats">
+                <div class="received-chats-img">
+                  <img src="user2.png" />
+                </div>
+                <div class="received-msg">
+                  <div class="received-msg-inbox">
+                    <p>
+                      Hi there! I noticed you have some missing assignments 
+                      in English class. Please make sure to submit them as soon 
+                      as possible.
+                    </p>
+                    <span class="time">18:06 PM | July 24</span>
+                  </div>
+                </div>
+              </div>
+              <!-- Outgoing messages -->
+              <div class="outgoing-chats">
+                <div class="outgoing-chats-img">
+                  <img src="user1.png" />
+                </div>
+                <div class="outgoing-msg">
+                  <div class="outgoing-chats-msg">
+                    <p class="multi-msg">
+                      Sorry about that! I completely forgot about them.
+                       I'll work on completing them tonight and submit 
+                       them tomorrow morning.
+                    </p>
+                    <p class="multi-msg">
+                      By the way, could you let me know which assignments 
+                      specifically are missing? I want to make sure I catch 
+                      up on all of them.
+                    </p>
+
+                    <span class="time">18:30 PM | July 24</span>
+                  </div>
+                </div>
+              </div>
+              <div class="received-chats">
+                <div class="received-chats-img">
+                  <img src="user2.png" />
+                </div>
+                <div class="received-msg">
+                  <div class="received-msg-inbox">
+                    <p class="single-msg">
+                      No problem! You're missing the essay on 
+                      Shakespeare's Sonnet 18. Please prioritize 
+                      completing that one. Let me know if you have 
+                      any questions about the essay prompt.
+                    </p>
+                    <span class="time">18:31 PM | July 24</span>
+                  </div>
+                </div>
+              </div>
+              <div class="outgoing-chats">
+                <div class="outgoing-chats-img">
+                  <img src="user1.png" />
+                </div>
+                <div class="outgoing-msg">
+                  <div class="outgoing-chats-msg">
+                    <p>
+                      Got it! I'll start working on the Sonnet 18 essay right away. 
+                    </p>
+
+                    <span class="time">18:34 PM | July 24</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- msg-bottom section -->
+
+          <div class="msg-bottom">
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Write message..."
+              />
+
+              <span class="input-group-text send-icon">
+                <i class="bi bi-send"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

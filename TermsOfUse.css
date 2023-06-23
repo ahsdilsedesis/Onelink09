@@ -1,0 +1,42 @@
+body {
+  background-color: #3974e9;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.back-button {
+  margin-bottom: 10px;
+}
+
+.back-button a {
+  background-color: rgb(255, 255, 255);
+  color: rgb(3, 171, 255);
+  border-color: rgb(3, 171, 255);
+  border-style: solid;
+  border-width: 2px;
+  height: 50px;
+  width: 100px;
+  border-radius: 2px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: background-color 1s, color 1s;
+  font-size: 20px;
+}
+
+.back-button a:hover {
+  background-color: rgb(3, 171, 255);
+  color: rgb(255, 255, 255);
+}
+
+.back-button a:active {
+  opacity: 0.7;
+}

@@ -1,3 +1,5 @@
+body {background-color: #657aff;}
+
 .center{ 
     position: absolute;
 top: 50%;
@@ -8,7 +10,7 @@ text-align: center;}
 .login_button {
     width: 15rem;
     height: 2.5rem;
-    background-color: rgb(253, 208, 31);;
+    background-color: #FFC00E;;
     color: azure;}
 
 .smallwords {
@@ -20,8 +22,11 @@ text-align: center;}
 
 .login_button {border-radius: 12px;}
 
+.parentbutton {background-color: #ecdd36;}
+
 .home {
     font-size:xx-large;
+    margin-top: 5rem;
 }
 .home2 {
     font-size:large;
@@ -40,6 +45,12 @@ header {
 .right {
     position: absolute;
     right: .5rem;
+}
+
+.chelsea {
+    left: 0;
+    top: 2rem;
+    position: fixed;
 }
 
 

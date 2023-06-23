@@ -1,0 +1,152 @@
+<html>
+  <head>
+    <title>Chat Box UI Design</title>
+    <link rel="stylesheet" href="./BugChat.css">
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Import this CDN to use icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+  </head>
+
+  <body>
+    <div class="back-button">
+      <a href="BugHelp.html">&larr; Back</a>
+    </div>
+    <style>.back-button {
+      margin-bottom: 10px;
+    }
+    
+    .back-button a {
+      background-color: royalblue;
+      color: white;
+      border-color: royalblue;
+      border-style: solid;
+      border-width: 2px;
+      height: 45px;
+      width: 85px;
+      border-radius: 10px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      transition: background-color 1s, color 1s;
+      font-size: 20px;
+    }
+    
+    .back-button a:hover {
+      background-color: rgb(56, 90, 194);
+      color: white;
+    }
+    
+    .back-button a:active {
+      opacity: 0.7;
+    }</style>
+    <!-- Main container -->
+    <div class="container">
+      <!-- msg-header section starts -->
+      <div class="msg-header">
+        <div class="container1">
+          <img src="user1.png" class="msgimg" />
+          <div class="active">
+            <p>Mrs.Jacobs</p>
+          </div>
+        </div>
+      </div>
+      <!-- msg-header section ends -->
+
+      <!-- Chat inbox  -->
+      <div class="chat-page">
+        <div class="msg-inbox">
+          <div class="chats">
+            <!-- Message container -->
+            <div class="msg-page">
+              <!-- Incoming messages -->
+
+              <div class="received-chats">
+                <div class="received-chats-img">
+                  <img src="user2.png" />
+                </div>
+                <div class="received-msg">
+                  <div class="received-msg-inbox">
+                    <p>
+                      Hello! How may I assist you today?
+                    </p>
+                    <span class="time">18:06 PM | July 24</span>
+                  </div>
+                </div>
+              </div>
+              <!-- Outgoing messages -->
+              <div class="outgoing-chats">
+                <div class="outgoing-chats-img">
+                  <img src="user1.png" />
+                </div>
+                <div class="outgoing-msg">
+                  <div class="outgoing-chats-msg">
+                    <p class="multi-msg">
+                      I'm sorry to hear that you're 
+                      experiencing difficulties. Let's get to the bottom 
+                      of this. 
+                    </p>
+                    <p class="multi-msg">
+                      Could you please provide me with some more 
+                      details about the error message you're receiving?
+                    </p>
+
+                    <span class="time">18:30 PM | July 24</span>
+                  </div>
+                </div>
+              </div>
+              <div class="received-chats">
+                <div class="received-chats-img">
+                  <img src="user2.png" />
+                </div>
+                <div class="received-msg">
+                  <div class="received-msg-inbox">
+                    <p class="single-msg">
+                      Thank you for providing the error message. 
+                      It seems like there might be a permissions issue. 
+                    </p>
+                    <span class="time">18:31 PM | July 24</span>
+                  </div>
+                </div>
+              </div>
+              <div class="outgoing-chats">
+                <div class="outgoing-chats-img">
+                  <img src="user1.png" />
+                </div>
+                <div class="outgoing-msg">
+                  <div class="outgoing-chats-msg">
+                    <p>
+                      Thanks! It seems like it was a permissions issue.
+                    </p>
+
+                    <span class="time">18:34 PM | July 24</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- msg-bottom section -->
+
+          <div class="msg-bottom">
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Write message..."
+              />
+
+              <span class="input-group-text send-icon">
+                <i class="bi bi-send"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

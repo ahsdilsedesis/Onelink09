@@ -12,13 +12,13 @@ text-align: center;}
     color: azure;
 }
 .smallwords {
-   color: rgb(253, 208, 31);
+   color: rgb(255, 255, 255);
 
 
 }
 .imgg {
-    width: 10rem;
-    height: 10rem;
+    width: 20rem;
+    height: 20rem;
 }
 
   .login_button {border-radius: 12px;}
